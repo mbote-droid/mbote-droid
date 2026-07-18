@@ -5,10 +5,8 @@
 </p>
 
 <p align="center">
-  <!-- TODO: replace the # links below with your real URLs, then delete this comment -->
-  <a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  <a href="LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://portfolio-sam-mbote.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="mailto:mbotesamuel9@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <!-- Optional: uncomment when you have them
   <a href="ORCID_URL"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
   <a href="SCHOLAR_URL"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Scholar"/></a>
@@ -35,7 +33,7 @@ My unfair advantage: I understand the **clinical and biological problem** *and* 
 | **[SurgiLogic-QA](https://github.com/mbote-droid/SurgiLogic-QA)** | Clinical-reasoning QA tool for post-operative surgical decision support. | Python · clinical NLP |
 | **ngs-variant-pipeline** _(in progress)_ | Reproducible **NGS variant-calling pipeline** (raw reads → annotated report). | Nextflow · Linux · bioinformatics |
 
-> More on my portfolio → **PORTFOLIO_URL**
+> More on my portfolio → **https://portfolio-sam-mbote.vercel.app**
 
 ---
 
