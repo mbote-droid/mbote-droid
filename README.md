@@ -45,7 +45,13 @@ My edge: I understand the **clinical and biological problem** and can ship the *
 **Data:** pandas · NumPy · SQL · biostatistics · data annotation (audio, medical image, clinical text)
 **Software:** Python · TypeScript · JavaScript · Bash · FastAPI · Django · Node.js/Express · React · Next.js · Tailwind CSS
 **DevOps & cloud:** Docker · Kubernetes · GitHub Actions (CI/CD) · pytest · Google Cloud · IBM Cloud · GPU compute (CUDA, AMD ROCm)
-**Scientific computing:** MATLAB · Octave
+**Scientific computing:** ODE/PDE solvers (RK45, BDF, Crank–Nicolson, FEM) · nonlinear least squares · convergence & stability analysis · NumPy · SciPy · MATLAB · Octave
+**Computational neuroscience:** Hodgkin–Huxley & integrate-and-fire models · spike-train statistics · LNP encoding · Bayesian decoding · information theory
+**Biomedical imaging & medical physics:** MRI k-space & FFT reconstruction · CT Radon transform & filtered back-projection · Bloch equations · X-ray attenuation
+**Signal processing:** FFT / inverse FFT · Welch PSD · digital filters · wavelets · Laplace & z-transforms · ECG/HRV
+**Statistics & probability:** maximum likelihood · Bayesian inference · GLMs · survival analysis · bootstrap · Monte Carlo · HMMs
+**Spatial analysis:** Moran's I · kernel density · kriging · disease mapping
+**Systems engineering:** EARS requirements · V-model & traceability · FMEA · control theory (PID, state-space) · Kalman filtering
 
 **Currently learning:** Rust · AWS · Azure
 
