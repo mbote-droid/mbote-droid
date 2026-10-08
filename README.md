@@ -17,7 +17,7 @@
 
 ### About
 
-I'm a physician and general surgery registrar (MBChB; MCS, COSECSA) who builds production-grade, tested software at the intersection of **medicine, genomics and applied AI**: NGS and bioinformatics pipelines, clinical decision-support tools, and multi-agent LLM systems with evaluation built in. I care about correctness, reproducibility and honest metrics: **1,000+ automated tests across five open-source projects**.
+I'm a physician and general surgery registrar (MBChB; MCS, COSECSA) who builds production-grade, tested software at the intersection of **medicine, genomics and applied AI**: NGS and bioinformatics pipelines, clinical decision-support tools, and multi-agent LLM systems with evaluation built in. I care about correctness, reproducibility and honest metrics: **1,200+ automated tests across seven open-source projects**.
 
 My edge: I understand the **clinical and biological problem** and can ship the **software** that solves it.
 
@@ -32,6 +32,8 @@ My edge: I understand the **clinical and biological problem** and can ship the *
 | **[Neurosonix](https://github.com/mbote-droid/Neurosonix)** | Audio annotation and multi-agent evaluation of voice-agent conversations across five quality dimensions and four role-play domains; Whisper/Gemini comparison. | 133 | FastAPI · React · TypeScript · Docker |
 | **[healthcare-ai-radar](https://github.com/mbote-droid/healthcare-ai-radar)** | Healthcare-AI literature intelligence: ranks sources with a transparent 0-100 Scoop Score, five-layer anti-hallucination guardrail, and a Publication Scout. | 90 | Python · Gemini · GitHub Actions |
 | **[tp53_analysis](https://github.com/mbote-droid/tp53_analysis)** | Live TP53 bioinformatics pipeline: sequence retrieval, 6-frame ORF discovery, phylogenetics, InterPro domain annotation and a cancer-mutation heatmap. | 63 | Python · BioPython · Streamlit |
+| **[CDISC-SAFETY-DASHBOARD](https://github.com/mbote-droid/CDISC-SAFETY-DASHBOARD)** | Clinical trial safety pipeline and dashboard: raw EDC data to CDISC SDTM (DM, AE, LB) and ADaM (ADSL, ADAE, ADLB), data-quality quarantine, conformance checks, TEAE/SOC-PT tables, risk differences with Newcombe CIs, lab shifts, eDISH Hy's law screen, SAS XPT v5 export. | 70 | Python · pandas · Streamlit · Docker |
+| **[BioEvidence-Forge](https://github.com/mbote-droid/BioEvidence-Forge)** | Self-hosted PubMed evidence monitor: rate-paced collection, provenance-preserving SQLite archive, transparent scoring and citation-complete evidence briefs. | 146 | Python · FastAPI · SQLite · Docker |
 | **[SurgiLogic-QA](https://github.com/mbote-droid/SurgiLogic-QA)** _(proof of concept)_ | Clinical-reasoning prototype for post-operative surgical monitoring. | n/a | Python · Streamlit |
 
 > Full write-ups on my portfolio: **https://portfolio-sam-mbote.vercel.app**
@@ -43,6 +45,7 @@ My edge: I understand the **clinical and biological problem** and can ship the *
 **Bioinformatics & genomics:** Nextflow · Snakemake · NGS variant calling (germline, somatic, long-read) · GIAB benchmarking · BioPython · NCBI Entrez · InterPro · ClinVar/IARC · AlphaFold · ESM-2 · HL7 FHIR R4
 **AI / ML:** LLM applications · RAG · multi-agent systems · LLM and AI-agent evaluation · anti-hallucination guardrails · Keras · scikit-learn · Whisper
 **Data:** pandas · NumPy · SQL · biostatistics · data annotation (audio, medical image, clinical text)
+**Clinical data:** CDISC SDTM & ADaM · SAS XPT · clinical data management · safety and pharmacovigilance analytics · HL7 FHIR
 **Software:** Python · TypeScript · JavaScript · Bash · FastAPI · Django · Node.js/Express · React · Next.js · Tailwind CSS
 **DevOps & cloud:** Docker · Kubernetes · GitHub Actions (CI/CD) · pytest · Google Cloud · IBM Cloud · GPU compute (CUDA, AMD ROCm)
 **Scientific computing:** ODE/PDE solvers (RK45, BDF, Crank–Nicolson, FEM) · nonlinear least squares · convergence & stability analysis · NumPy · SciPy · MATLAB · Octave
