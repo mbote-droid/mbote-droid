@@ -27,7 +27,7 @@ My edge: I understand the **clinical and biological problem** and can ship the *
 
 | Project | What it is | Tests | Stack |
 |---|---|---|---|
-| **[bioeng-termbench](https://github.com/mbote-droid/bioeng-termbench)** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23308638.svg)](https://doi.org/10.5281/zenodo.23308638) | Biomedical engineering tasks for training and evaluating AI agents (ECG/HRV, PK fitting and dosing, closed-loop insulin control, bioheat ablation planning, PK debugging) with physics-aware graders validated by mutation testing, independent Python/Octave/Julia references and a sandbox red team. GPU benchmark: fused CUDA kernel 112x (float64) / 231x (float32) vs NumPy on a T4. | 289 | Python · SciPy · CuPy/CUDA · Octave · Julia · Snakemake · Docker |
+| **[bioeng-termbench](https://github.com/mbote-droid/bioeng-termbench)** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23308638.svg)](https://doi.org/10.5281/zenodo.23308638) [paper](https://doi.org/10.5281/zenodo.23309911) | Biomedical engineering tasks for training and evaluating AI agents (ECG/HRV, PK fitting and dosing, closed-loop insulin control, bioheat ablation planning, PK debugging) with physics-aware graders validated by mutation testing, independent Python/Octave/Julia references and a sandbox red team. GPU benchmark: fused CUDA kernel 112x (float64) / 231x (float32) vs NumPy on a T4. | 289 | Python · SciPy · CuPy/CUDA · Octave · Julia · Snakemake · Docker |
 | **[ngs-variant-pipeline](https://github.com/mbote-droid/ngs-variant-pipeline)** | Nextflow pipeline from raw reads to an evidence-cited clinical variant report. Germline, somatic (Mutect2), cohort joint genotyping and long-read (minimap2, Clair3, Sniffles2); GIAB benchmarking; HL7 FHIR output. | 164 | Nextflow · Python · Docker · conda |
 | **[precision-onco-africa](https://github.com/mbote-droid/precision-onco-africa)** | Offline-capable multi-agent platform for TP53 variant interpretation: 26 specialist agents including a 6-agent tumour board, plus an AI reasoning-audit layer. ClinVar/IARC benchmark: 7/7 known pathogenic hotspots correct. Runs on 8 GB RAM. | 566 | Python · Gemma 4 · RAG · ChromaDB · Streamlit |
 | **[Neurosonix](https://github.com/mbote-droid/Neurosonix)** | Audio annotation and multi-agent evaluation of voice-agent conversations across five quality dimensions and four role-play domains; Whisper/Gemini comparison. | 133 | FastAPI · React · TypeScript · Docker |
@@ -38,6 +38,10 @@ My edge: I understand the **clinical and biological problem** and can ship the *
 | **[SurgiLogic-QA](https://github.com/mbote-droid/SurgiLogic-QA)** _(proof of concept)_ | Clinical-reasoning prototype for post-operative surgical monitoring. | n/a | Python · Streamlit |
 
 > Full write-ups on my portfolio: **https://portfolio-sam-mbote.vercel.app**
+
+### 📄 Publications
+
+- **Validating the graders: physics-aware rewards for AI agents on biomedical engineering tasks.** Preprint, Zenodo, 2026. [doi:10.5281/zenodo.23309911](https://doi.org/10.5281/zenodo.23309911)
 
 ---
 
