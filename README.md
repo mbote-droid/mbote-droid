@@ -17,7 +17,7 @@
 
 ### About
 
-I'm a physician and general surgery registrar (MBChB; MCS, COSECSA) who builds production-grade, tested software at the intersection of **medicine, genomics and applied AI**: NGS and bioinformatics pipelines, clinical decision-support tools, and multi-agent LLM systems with evaluation built in. I care about correctness, reproducibility and honest metrics: **1,200+ automated tests across seven open-source projects**.
+I'm a physician and general surgery registrar (MBChB; MCS, COSECSA) who builds production-grade, tested software at the intersection of **medicine, genomics and applied AI**: NGS and bioinformatics pipelines, clinical decision-support tools, and multi-agent LLM systems with evaluation built in. I care about correctness, reproducibility and honest metrics: **1,500+ automated tests across eight open-source projects**.
 
 My edge: I understand the **clinical and biological problem** and can ship the **software** that solves it.
 
@@ -27,6 +27,7 @@ My edge: I understand the **clinical and biological problem** and can ship the *
 
 | Project | What it is | Tests | Stack |
 |---|---|---|---|
+| **[bioeng-termbench](https://github.com/mbote-droid/bioeng-termbench)** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23308638.svg)](https://doi.org/10.5281/zenodo.23308638) | Biomedical engineering tasks for training and evaluating AI agents (ECG/HRV, PK fitting and dosing, closed-loop insulin control, bioheat ablation planning, PK debugging) with physics-aware graders validated by mutation testing, independent Python/Octave/Julia references and a sandbox red team. GPU benchmark: fused CUDA kernel 112x (float64) / 231x (float32) vs NumPy on a T4. | 289 | Python · SciPy · CuPy/CUDA · Octave · Julia · Snakemake · Docker |
 | **[ngs-variant-pipeline](https://github.com/mbote-droid/ngs-variant-pipeline)** | Nextflow pipeline from raw reads to an evidence-cited clinical variant report. Germline, somatic (Mutect2), cohort joint genotyping and long-read (minimap2, Clair3, Sniffles2); GIAB benchmarking; HL7 FHIR output. | 164 | Nextflow · Python · Docker · conda |
 | **[precision-onco-africa](https://github.com/mbote-droid/precision-onco-africa)** | Offline-capable multi-agent platform for TP53 variant interpretation: 26 specialist agents including a 6-agent tumour board, plus an AI reasoning-audit layer. ClinVar/IARC benchmark: 7/7 known pathogenic hotspots correct. Runs on 8 GB RAM. | 566 | Python · Gemma 4 · RAG · ChromaDB · Streamlit |
 | **[Neurosonix](https://github.com/mbote-droid/Neurosonix)** | Audio annotation and multi-agent evaluation of voice-agent conversations across five quality dimensions and four role-play domains; Whisper/Gemini comparison. | 133 | FastAPI · React · TypeScript · Docker |
@@ -43,7 +44,7 @@ My edge: I understand the **clinical and biological problem** and can ship the *
 ### 🛠️ Skills
 
 **Bioinformatics & genomics:** Nextflow · Snakemake · NGS variant calling (germline, somatic, long-read) · GIAB benchmarking · BioPython · NCBI Entrez · InterPro · ClinVar/IARC · AlphaFold · ESM-2 · HL7 FHIR R4
-**AI / ML:** LLM applications · RAG · multi-agent systems · LLM and AI-agent evaluation · anti-hallucination guardrails · Keras · scikit-learn · Whisper
+**AI / ML:** LLM applications · RAG · multi-agent systems · LLM and AI-agent evaluation · benchmark and grader design (reward-hacking resistance) · anti-hallucination guardrails · Keras · scikit-learn · Whisper
 **Data:** pandas · NumPy · SQL · biostatistics · data annotation (audio, medical image, clinical text)
 **Clinical data:** CDISC SDTM & ADaM · SAS XPT · clinical data management · safety and pharmacovigilance analytics · HL7 FHIR
 **Software:** Python · TypeScript · JavaScript · Bash · FastAPI · Django · Node.js/Express · React · Next.js · Tailwind CSS
