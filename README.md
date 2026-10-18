@@ -10,6 +10,7 @@
   <a href="https://scholar.google.com/citations?user=3iiXDTYAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
   <a href="https://www.linkedin.com/in/samuel-mbote-238b13230"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://www.credly.com/users/samuel-m.1cfdf6c1"><img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/></a>
+  <a href="https://www.kolabtree.com/find-an-expert/s.132104"><img src="https://img.shields.io/badge/Kolabtree-1B998B?style=for-the-badge" alt="Kolabtree"/></a>
   <a href="mailto:mbotesamuel9@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
@@ -17,7 +18,7 @@
 
 ### About
 
-I'm a physician and general surgery registrar (MBChB; MCS, COSECSA) who builds production-grade, tested software at the intersection of **medicine, genomics and applied AI**: NGS and bioinformatics pipelines, clinical decision-support tools, and multi-agent LLM systems with evaluation built in. I care about correctness, reproducibility and honest metrics: **1,500+ automated tests across eight open-source projects**.
+I'm a physician and general surgery registrar (MBChB; MCS, COSECSA) who builds production-grade, tested software at the intersection of **medicine, genomics and applied AI**: NGS and bioinformatics pipelines, clinical decision-support tools, and multi-agent LLM systems with evaluation built in. I care about correctness, reproducibility and honest metrics: **1,600+ automated tests across nine open-source projects**.
 
 My edge: I understand the **clinical and biological problem** and can ship the **software** that solves it.
 
@@ -27,6 +28,7 @@ My edge: I understand the **clinical and biological problem** and can ship the *
 
 | Project | What it is | Tests | Stack |
 |---|---|---|---|
+| **[Neuro-signal](https://github.com/mbote-droid/Neuro-signal)** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23447346.svg)](https://doi.org/10.5281/zenodo.23447346) [paper](https://doi.org/10.5281/zenodo.23448015) | Validation-first EEG report pipeline: aperiodic (1/f) spectra, debiased wPLI connectivity, seizure-like event detection, and explanations mechanically checked against the computed metrics (2,152/2,152 corrupted explanations caught). Pre-registered hypotheses. | 107 | Python · MNE · SciPy · Claude API |
 | **[bioeng-termbench](https://github.com/mbote-droid/bioeng-termbench)** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23308638.svg)](https://doi.org/10.5281/zenodo.23308638) [paper](https://doi.org/10.5281/zenodo.23309911) | Biomedical engineering tasks for training and evaluating AI agents (ECG/HRV, PK fitting and dosing, closed-loop insulin control, bioheat ablation planning, PK debugging) with physics-aware graders validated by mutation testing, independent Python/Octave/Julia references and a sandbox red team. GPU benchmark: fused CUDA kernel 112x (float64) / 231x (float32) vs NumPy on a T4. | 289 | Python · SciPy · CuPy/CUDA · Octave · Julia · Snakemake · Docker |
 | **[ngs-variant-pipeline](https://github.com/mbote-droid/ngs-variant-pipeline)** | Nextflow pipeline from raw reads to an evidence-cited clinical variant report. Germline, somatic (Mutect2), cohort joint genotyping and long-read (minimap2, Clair3, Sniffles2); GIAB benchmarking; HL7 FHIR output. | 164 | Nextflow · Python · Docker · conda |
 | **[precision-onco-africa](https://github.com/mbote-droid/precision-onco-africa)** | Offline-capable multi-agent platform for TP53 variant interpretation: 26 specialist agents including a 6-agent tumour board, plus an AI reasoning-audit layer. ClinVar/IARC benchmark: 7/7 known pathogenic hotspots correct. Runs on 8 GB RAM. | 566 | Python · Gemma 4 · RAG · ChromaDB · Streamlit |
@@ -41,6 +43,7 @@ My edge: I understand the **clinical and biological problem** and can ship the *
 
 ### 📄 Publications
 
+- **Validation-first EEG pipelines: how synthetic benchmarks mislead, and how pre-registration catches it.** Preprint, Zenodo, 2026. [doi:10.5281/zenodo.23448015](https://doi.org/10.5281/zenodo.23448015)
 - **Validating the graders: physics-aware rewards for AI agents on biomedical engineering tasks.** Preprint, Zenodo, 2026. [doi:10.5281/zenodo.23309911](https://doi.org/10.5281/zenodo.23309911)
 
 ---
